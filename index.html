@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.scss">
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+
+
+  
+</head>
+<body>
+
+  <main>
+    <div class="left">
+        <h1 id="result">Your Result</h1>
+        <div class="circle">
+            <p id="score">76</p>
+            <p id="outOf">of 100</p>
+        </div>
+        <div class="sub">
+          <h1 id="mark">Great</h1>
+          <p id="desc">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+    </div>
+
+
+    <div class="right">
+      <h1 id="summary">Summary</h1>
+      <div id="data">
+        <article class="stat reaction">
+          <div class="statLeft">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction">
+            <p>Reaction</p>
+          </div>
+          <div class="statRight"><p id="maxStatScore"><span class="scoreStat">80</span>/100</p></div>
+        </article>
+        <article class="stat memory">
+          <div class="statLeft">
+            <img src="assets/images/icon-memory.svg" alt="Memory">
+            <p>Memory</p>
+          </div>
+          <div class="statRight"><p id="maxStatScore"><span class="scoreStat">80</span>/100</p></div>
+        </article>
+        <article class="stat verbal">
+          <div class="statLeft">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal">
+            <p>Verbal</p>
+          </div>
+          <div class="statRight"><p id="maxStatScore"><span class="scoreStat">80</span>/100</p></div>
+        </article>
+        <article class="stat visual">
+          <div class="statLeft">
+            <img src="assets/images/icon-visual.svg" alt="Visual">
+            <p>Visual</p>
+          </div>
+          <div class="statRight"><p id="maxStatScore"><span class="scoreStat">80</span>/100</p></div>
+        </article>
+      </div>
+      <button class="continue">
+          Continue
+      </button>
+    </div>
+
+
+  </main>
+
+</body>
+</html>
